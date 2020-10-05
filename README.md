@@ -40,7 +40,10 @@ network.numerical_gradient 가 순방향 , network.gradient 가 오차역전파 
 
 <img width="1340" alt="classification_circle" src="https://user-images.githubusercontent.com/22265915/95034847-10e78400-06fe-11eb-9d5f-579d16538e29.png">
 
+
 ## 실제 Playground 원 안, 밖 classification 이 되는지 numpy로 구현 ##
+
+파일명 classification_circle_relu.py
 
 ![image](https://user-images.githubusercontent.com/22265915/95036405-cd434900-0702-11eb-80ce-66164afd10fc.png)
 
