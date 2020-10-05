@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
 
 network = ThirdLayerNet(input_size=784, hidden_size1=50,hidden_size2=10,hidden_size3=40, output_size=10)
+from third_layer_relu import *
+#network = ThirdLayerRelu()
 
 #iters_num = 10000
 train_size = x_train.shape[0]
